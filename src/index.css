@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    /* Default Styles */
+    nav {
+      @apply bg-gray-200 text-black;
+    }
+  
+    /* Dark Mode Styles */
+    .dark nav {
+      @apply bg-gray-900 text-white;
+    }
+  }
+  
+
