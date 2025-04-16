@@ -16,7 +16,7 @@ const App = () => {
     name: "Mohammad Nazir Zarifi",
     title: "Full Stack Developer & UI/UX Designer",
     description:
-      "Designing intuitive and visually stunning user interfaces, I specialize in crafting seamless web experiences. Combining creativity with code, I bring ideas to life with responsive and user-centered designs! Let's build digital solutions that captivate and inspire!",
+      "Designing intuitive and visually stunning user interfaces, I bring ideas to life with responsive and user-centered designs! Let's build digital solutions that captivate and inspire!",
     imageUrl: profil, // Replace with your image URL
   };
 

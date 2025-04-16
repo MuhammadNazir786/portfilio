@@ -8,36 +8,41 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white shadow fixed top-0 left-0 right-0 z-10">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-16">
+    <nav className="bg-gray-100 fixed top-0 left-0 right-0 z-10">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 md:py-4 pt-4 md:pt-6">
+        <div className="flex justify-between">
           <div className="flex items-center">
-            <div className="orbitron-uniquifier flex-shrink-0 ">
+
+          
+        <div className="orbitron-uniquifier flex-shrink-0 pt-1">
              <a className="no-underline text-green-600 font-bold text-3xl" href="#hero"> MNZ</a>
             </div>
-            <div className="hidden md:flex space-x-4 ml-10">
+            </div>
+          <div className="flex items-center">
+          
+            <div className="hidden md:flex space-x-8 ml-10">
               <a
                 href="#about"
-                className="no-underline font-medium text-gray-700 hover:text-green-600"
+                className="text-sm  no-underline font-bold text-gray-700 hover:text-green-600"
               >
                 ABOUT ME
               </a>
-              <a href="#skills" className="no-underline font-medium text-gray-700 hover:text-green-600">
+              <a href="#skills" className="text-sm font-bold no-underline text-gray-700 hover:text-green-600">
                 SKILLS
               </a>
               <a
                 href="#projects"
-                className="no-underline font-medium text-gray-700 hover:text-green-600"
+                className="text-sm no-underline font-bold text-gray-700 hover:text-green-600"
               >
                 PROJECTS
               </a>
               <a
                 href="#services"
-                className="no-underline font-medium text-gray-700 hover:text-green-600"
+                className="text-sm no-underline font-bold text-gray-700 hover:text-green-600"
               >
                 SERVICES
               </a>
-              <a href="#contact" className="no-underline font-medium text-gray-700 hover:text-green-600">
+              <a href="#contact" className="text-sm no-underline font-bold text-gray-700 hover:text-green-600">
                 CONTACT ME
               </a>
             </div>
@@ -45,9 +50,9 @@ const Navbar = () => {
           <div className="hidden md:flex items-center">
             <a
               href="#hire"
-              className="text-base no-underline font-medium bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700"
+              className="text-base no-underline font-bold bg-green-600 text-white px-4 py-2 mt-1 rounded hover:bg-green-700"
             >
-              Hire Me
+              Contact Us
             </a>
           </div>
           <div className="flex md:hidden items-center">
@@ -95,9 +100,9 @@ const Navbar = () => {
             </a>
             <a
               href="#hire"
-              className="text-center no-underline font-medium bg-green-600 text-white px-4 py-2 rounded"
+              className="orbitron-uniquifier text-center no-underline font-medium bg-green-600 text-white px-4 py-2 rounded"
             >
-              Hire Me
+             Contact Us
             </a>
           </div>
         </div>
