@@ -14,9 +14,9 @@ import Footer from "./portfilio/Footer";
 const App = () => {
   const data = {
     name: "Mohammad Nazir Zarifi",
-    title: "Full Stack Developer & UI/UX Designer",
+    title: "Front End Developer & UI/UX Designer",
     description:
-      "Designing intuitive and visually stunning user interfaces, I bring ideas to life with responsive and user-centered designs! Let's build digital solutions that captivate and inspire!",
+      "Front-End Developer passionate about crafting responsive and intuitive user interfaces. Skilled in HTML, CSS, JavaScript, and modern frameworks like React. Experienced in building pixel-perfect Committed to delivering exceptional user experiences through innovative solutions and best practices in web development.",
     imageUrl: profil, // Replace with your image URL
   };
 

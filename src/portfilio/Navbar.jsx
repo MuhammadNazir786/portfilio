@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { motion, AnimatePresence } from "framer-motion";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -80,33 +80,38 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Menu */}
-      {isOpen && (
-        <div className="md:hidden">
-          <div className="flex flex-col space-y-2 px-4 py-2">
-            <a href="#about" className="no-underline font-medium text-gray-700">
-              ABOUT ME
-            </a>
-            <a href="#skills" className="no-underline font-medium text-gray-700">
-              SKILLS
-            </a>
-            <a href="#projects" className="no-underline font-medium text-gray-700">
-              PROJECTS
-            </a>
-            <a href="#services" className="no-underline font-medium text-gray-700">
-              SERVICES
-            </a>
-            <a href="#contact" className="no-underline font-medium text-gray-700">
-              CONTACT ME
-            </a>
-            <a
-              href="#hire"
-              className="orbitron-uniquifier text-center no-underline font-medium bg-green-600 text-white px-4 py-2 rounded"
-            >
-             Contact Us
-            </a>
-          </div>
-        </div>
-      )}
+      <AnimatePresence>
+  {isOpen && (
+    <motion.div
+      className="md:hidden"
+      initial={{ opacity: 0, y: -10 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: -10 }}
+      transition={{ duration: 0.3 }}
+    >
+      <div className="flex flex-col space-y-2 px-4 py-2">
+        {["about", "skills", "projects", "services", "contact"].map((item) => (
+          <a
+            key={item}
+            href={`#${item}`}
+            className="no-underline font-medium text-gray-700"
+            onClick={() => setIsOpen(false)} // close on click
+          >
+            {item.toUpperCase()}
+          </a>
+        ))}
+        <a
+          href="#hire"
+          className="orbitron-uniquifier text-center no-underline font-medium bg-green-600 text-white px-4 py-2 rounded"
+          onClick={() => setIsOpen(false)}
+        >
+          Contact Us
+        </a>
+      </div>
+    </motion.div>
+  )}
+</AnimatePresence>
+
     </nav>
   );
 };
