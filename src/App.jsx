@@ -1,6 +1,6 @@
 import Navbar from "./portfilio/Navbar";
 import Hero from "./portfilio/Hero";
-import profil from "./icons/mys2.png";
+import profil from "./icons/mys1.png";
 import Cards from "./portfilio/Cards";
 import AboutSection from "./portfilio/AboutSection";
 import OurProjects from "./portfilio/OurProjects";
