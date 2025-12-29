@@ -1,5 +1,5 @@
-import Hero from "./portfilio/Hero";
 import Navbar from "./portfilio/Navbar";
+import Hero from "./portfilio/Hero";
 import profil from "./icons/mys2.png";
 import Cards from "./portfilio/Cards";
 import AboutSection from "./portfilio/AboutSection";
@@ -13,10 +13,10 @@ import Footer from "./portfilio/Footer";
 
 const App = () => {
   const data = {
-    name: "Mohammad Nazir Zarifi",
-    title: "Front End Developer & UI/UX Designer",
+    name: "Nazir Zarifi",
+    title: "Full stack Developer & UI/UX Designer",
     description:
-      "Front-End Developer passionate about crafting responsive and intuitive user interfaces. Skilled in HTML, CSS, JavaScript, and modern frameworks like React. Experienced in building pixel-perfect Committed to delivering exceptional user experiences through innovative solutions and best practices in web development.",
+      "Full-Stack Developer passionate about building scalable, responsive, and user-friendly web applications. Skilled in Node.js, React, Next.js, HTML, and CSS. Experienced in creating clean, maintainable frontend and backend solutions, delivering exceptional user experiences through best practices in full-stack development.",
     imageUrl: profil, // Replace with your image URL
   };
 

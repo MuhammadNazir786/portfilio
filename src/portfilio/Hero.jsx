@@ -42,7 +42,7 @@ const Hero = ({ data }) => {
           </div>
 
           {/* Social Icons */}
-          <div className="flex space-x-4">
+          <div className=" flex space-x-4">
             <a
               href="https://www.linkedin.com/in/mohammad-nazir-zarifi-126693294/"
               target="_blank"
@@ -50,7 +50,7 @@ const Hero = ({ data }) => {
             >
               <AiFillLinkedin className="h-8 w-8 rounded-3xl text-gray-700 hover:text-green-600 transition" />
             </a>
-            <a href="" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/MuhammadNazir786" target="_blank" rel="noopener noreferrer">
               <DiGithubBadge className="h-8 w-8 text-gray-700 hover:text-green-600 transition" />
             </a>
             <a

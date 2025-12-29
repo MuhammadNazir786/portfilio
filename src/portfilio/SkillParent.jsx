@@ -10,9 +10,23 @@ import { FaGitAlt } from "react-icons/fa";
 
 const skillsData = [
   {
-    name: "Figma",
-    icon: <FaFigma className="w-12 h-12 text-gray-800" />,
+    name: "Typescript",
+    icon: <SiTypescript className="w-12 h-12 text-blue-500" />,
   },
+  {
+    name: "React",
+    icon: <FaReact className="w-12 h-12 text-blue-500" />,
+  },
+  {
+    name: "Next JS",
+    icon: <SiNextdotjs className="w-12 h-12" />,
+  },
+
+  {
+    name: "git",
+    icon: <FaGitAlt className="w-12 h-12 text-orange-700" />,
+  },
+
   {
     name: "Tailwind",
     icon: <RiTailwindCssFill className="w-12 h-12 text-blue-700" />,
@@ -22,21 +36,8 @@ const skillsData = [
     icon: <FaSass className="w-12 h-12 text-white bg-pink-500" />,
   },
   {
-    name: "Typescript",
-    icon: <SiTypescript className="w-12 h-12 text-blue-500" />,
-  },
-  {
-    name: "React",
-    icon: <FaReact className="w-12 h-12 text-blue-500" />,
-  },
-
-  {
-    name: "Next JS",
-    icon: <SiNextdotjs className="w-12 h-12" />,
-  },
-  {
-    name: "git",
-    icon: <FaGitAlt className="w-12 h-12 text-orange-700" />,
+    name: "Figma",
+    icon: <FaFigma className="w-12 h-12 text-gray-800" />,
   },
 ];
 
