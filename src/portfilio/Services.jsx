@@ -21,24 +21,24 @@ const services = [
     icon: <FaMobile className="w-10 h-10 text-green-600" />, 
     skills: ["CSS Flexbox", "CSS Grid", "Media Queries", "Mobile-First"],
   },
-  // {
-  //   title: "Full-Stack Development",
-  //   description: "Creating scalable web apps with MERN stack (MongoDB, Express.js, React, Node.js).",
-  //   icon: <FaLaptopCode className="w-10 h-10 text-red-600" />, 
-  //   skills: ["MERN Stack", "Node.js", "Express", "MongoDB"],
-  // },
-  // {
-  //   title: "Backend Development",
-  //   description: "Building robust APIs and backend systems with Express, Node.js, and authentication.",
-  //   icon: <FaServer className="w-10 h-10 text-yellow-600" />, 
-  //   skills: ["Node.js", "Express", "Datasractchar", "REST APIs"],
-  // },
-  // {
-  //   title: "Database Management",
-  //   description: "Optimizing databases with SQL & NoSQL solutions for scalable web applications.",
-  //   icon: <FaDatabase className="w-10 h-10 text-teal-600" />, 
-  //   skills: ["MongoDB", "MySQL", "Firebase", "PostgreSQL"],
-  // },
+  {
+    title: "Full-Stack Development",
+    description: "Creating scalable web apps with MERN stack (MongoDB, Express.js, React, Node.js).",
+    icon: <FaLaptopCode className="w-10 h-10 text-red-600" />, 
+    skills: ["MERN Stack", "Node.js", "Express", "MongoDB"],
+  },
+  {
+    title: "Backend Development",
+    description: "Building robust APIs and backend systems with Express, Node.js, and authentication.",
+    icon: <FaServer className="w-10 h-10 text-yellow-600" />, 
+    skills: ["Node.js", "Express", "Datasractchar", "REST APIs"],
+  },
+  {
+    title: "Database Management",
+    description: "Optimizing databases with SQL & NoSQL solutions for scalable web applications.",
+    icon: <FaDatabase className="w-10 h-10 text-teal-600" />, 
+    skills: ["MongoDB", "MySQL", "Firebase", "PostgreSQL"],
+  },
 ];
 
 const Services = () => {
