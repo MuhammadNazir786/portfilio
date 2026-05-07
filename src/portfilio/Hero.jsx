@@ -20,7 +20,7 @@ const Hero = ({ data }) => {
           <h2 className="orbitron-uniquifier text-2xl text-gray-700 font-bold mb-4">
             {data.name}
           </h2>
-          <p className="orbitron-uniquifier text-4xl text-green-600 font-semibold mb-4">
+          <p className="orbitron-uniquifier text-4xl text-green-700 font-semibold mb-4">
             {data.title}
           </p>
           <p className="mb-6 text-gray-600">{data.description}</p>
@@ -29,13 +29,13 @@ const Hero = ({ data }) => {
           <div className="flex space-x-4 mb-4">
             <a
               href="#contact"
-              className="no-underline bg-green-500 text-white px-8 py-2 rounded-lg shadow hover:bg-green-500 transition"
+              className="no-underline bg-green-600 text-white px-8 py-2 rounded-lg shadow hover:bg-green-500 transition"
             >
               Hire Me
             </a>
             <a
               href="https://drive.google.com/file/d/1_X9rB8GctEzMg01LjHXgOWkBcBXtgx6F/view?usp=sharing"
-              className="no-underline bg-white border text-green-600 px-6 py-2 rounded-lg shadow hover:bg-green-500 hover:text-green-500 transition"
+              className="no-underline bg-white border text-green-600 px-6 py-2 rounded-lg shadow hover:bg-green-700 hover:text-green-500 transition"
             >
               Download CV
             </a>
