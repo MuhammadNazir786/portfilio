@@ -15,7 +15,7 @@ const Navbar = () => {
 
           
         <div className="orbitron-uniquifier flex-shrink-0 pt-1">
-             <a className="no-underline text-green-600 font-bold text-3xl" href="#hero"> MNZ</a>
+             <a className="no-underline text-bgGreen font-bold text-3xl" href="#hero"> MNZ</a>
             </div>
             </div>
           <div className="flex items-center">
