@@ -29,13 +29,13 @@ const Hero = ({ data }) => {
           <div className="flex space-x-4 mb-4">
             <a
               href="#contact"
-              className="no-underline bg-green-600 text-white px-8 py-2 rounded-lg shadow hover:bg-green-500 transition"
+              className="no-underline bg-bgGreen text-white px-8 py-2 rounded-lg shadow hover:bg-green-500 transition"
             >
               Hire Me
             </a>
             <a
               href="https://drive.google.com/file/d/1_X9rB8GctEzMg01LjHXgOWkBcBXtgx6F/view?usp=sharing"
-              className="no-underline bg-white border text-green-600 px-6 py-2 rounded-lg shadow hover:bg-green-600 hover:text-green-500 transition"
+              className="no-underline bg-white border text-bgGreen px-6 py-2 rounded-lg shadow hover:bg-green-600 hover:text-green-500 transition"
             >
               Download CV
             </a>
