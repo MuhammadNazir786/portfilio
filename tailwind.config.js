@@ -14,7 +14,8 @@ export default {
         sky:"#e9f9ff",
         darkblue:"#090e34",
         greenBlue:"#124c51",
-        gold:"#b78f16"
+        gold:"#b78f16",
+        bgGreen:"#0D522D"
             }, 
           
     },
