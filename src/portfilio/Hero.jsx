@@ -20,7 +20,7 @@ const Hero = ({ data }) => {
           <h2 className="orbitron-uniquifier text-2xl text-gray-700 font-bold mb-4">
             {data.name}
           </h2>
-          <p className="orbitron-uniquifier text-4xl text-green-700 font-semibold mb-4">
+          <p className="orbitron-uniquifier text-4xl text-bgGreen font-semibold mb-4">
             {data.title}
           </p>
           <p className="mb-6 text-gray-600">{data.description}</p>
